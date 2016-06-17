@@ -1,2 +1,3 @@
-# jekylledit-skeleton
-Sample Jekyll / GitHub Pages website with blog with integration of JekyllEdit administration
+# Sample blog with JekyllEdit CMS
+
+Sample blog powered by Jekyll / GitHub Pages with integration of [JekyllEdit](https://github.com/klokantech/jekylledit) administration
