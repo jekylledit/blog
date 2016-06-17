@@ -11,17 +11,20 @@ layout: default
 
 </header>
 <nav class="nav">
-     <ul class="list">
-     <li class="item">
-       <a class="link" href="{{ site.url }}">Home</a>
-     </li>
-     <li class="item">
-       <a class="link" href="{{ site.url }}about">About</a>
-     </li>
-   </ul>
- </nav>
- {{content}}
+  <ul class="list">
+    <li class="item">
+      <a class="link" href="{{ site.url }}">Home</a>
+    </li>
+    <li class="item">
+      <a class="link" href="{{ site.url }}about">About</a>
+    </li>
+  </ul>
+</nav>
+{{content}}
 
- <footer class="footer-main">
-   {{ site.name }} © {{ site.time | date: '%Y' }}
- </footer>
+<footer class="footer-main">
+  {{ site.name }} © {{ site.time | date: '%Y' }} |
+  <a id="jekylledit-admin-btn" data-jekylledit-lang="en" data-jekylledit-repo="blog">
+    Admin
+  </a>
+</footer>
