@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<header class="header-home {% if site.animation %}animated{% endif %}">
+  <a class="link" href="{{ site.url }}about/">
+    <img class="selfie" alt="{{ site.name }}" src="{{ site.url }}assets/images/profile.jpg" />
+  </a>
+
+  <h1 class="title">{{ site.name }}</h1>
+  <h2 class="description">{{ site.bio }}</h2>
+
+</header>
+<nav class="nav">
+     <ul class="list">
+     <li class="item">
+       <a class="link" href="{{ site.url }}">Home</a>
+     </li>
+     <li class="item">
+       <a class="link" href="{{ site.url }}about">About</a>
+     </li>
+   </ul>
+ </nav>
+ {{content}}
+
+ <footer class="footer-main">
+   {{ site.name }} © {{ site.time | date: '%Y' }}
+ </footer>

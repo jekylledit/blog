@@ -1,0 +1,17 @@
+name: John Doe
+description: 'A Man who travels the world eating noodles'
+
+url: "http://jekylledit.github.io/blog/"
+
+permalink: /:title/
+
+markdown: kramdown
+
+sass:
+    sass_dir: _sass
+    style: :compressed
+
+
+exclude:
+ - README.md
+
