@@ -1,4 +1,5 @@
 ---
+author: john.doe@email.com
 title: "Lorem ipsum dolor post"
 layout: post
 date: 2016-01-13 11:11

@@ -1,0 +1,15 @@
+{
+  "gitkit_options": {
+    "accountChooserEnabled": false,
+    "displayMode": "providerFirst",
+    "signInOptions": ["password"]
+  },
+  "default_roles": ["contributor"],
+  "accounts":
+          [
+            {
+              "email": "john.doe@email.com",
+              "roles": ["administrator"]
+            }
+          ]
+}

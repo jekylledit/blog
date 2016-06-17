@@ -1,4 +1,5 @@
 ---
+author: john.doe@email.com
 title: "Markdown Common Elements"
 layout: post
 date: 2016-04-25 16:45

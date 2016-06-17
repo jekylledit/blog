@@ -1,0 +1,4 @@
+---
+layout: null
+---
+{% assign tags = "" | split:"|"  %}{% for page in site.posts %}{% assign tags = tags | push: page.tags %}{% endfor %}["{{ tags | sort | join: "||" | split: "||" | uniq | join: '", "' }}"]

@@ -1,0 +1,49 @@
+{
+  "categories": {
+    "blog": {
+      "label": "Blog",
+      "symbol": "B",
+      "fields": {
+        "title": {
+          "label": "Title*",
+          "type": "text",
+          "value": "",
+          "required": true
+        },
+        "date": {
+          "type": "datetime",
+          "value": "now",
+          "required": true,
+          "label": "Date*"
+        },
+        "tags": {
+          "type": "multichoice",
+          "values": "/tags.json",
+          "value": [],
+          "allow_custom": true
+        },
+        "layout": {
+          "type": "text",
+          "value": "post",
+          "readonly": true
+        }
+      }
+    }
+  },
+  "languages": ["en"],
+  "media": "media",
+  "profile": {
+    "fields": {
+      "username": {
+        "label": "Name"
+      },
+      "type": "text",
+      "value": ""
+    },
+    "email": {
+      "label": "Email"
+    },
+    "type": "text",
+    "value": ""
+  }
+}
