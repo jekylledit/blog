@@ -98,4 +98,4 @@ Markdown can also contain images. I'll need to add something here sometime.
 ![Markdowm Image](/image/url)
 {% endhighlight %}
 
-![Markdowm Image](/media/ghost-blog.jpg)
+![Markdowm Image]({{ post.url }}media/ghost-blog.jpg)
