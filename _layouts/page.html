@@ -24,7 +24,12 @@ layout: default
 
 <footer class="footer-main">
   {{ site.name }} © {{ site.time | date: '%Y' }} |
-  <a id="jekylledit-admin-btn" data-jekylledit-lang="en" data-jekylledit-repo="blog">
+  <a id="jekylledit-admin-btn"
+     data-jekylledit-lang="en"
+     data-jekylledit-repo="blog"
+     {% if page.layout == "post" %}
+       data-jekylledit-path="{{ page.path }}"
+     {% endif %}>
     Admin
   </a>
 </footer>
